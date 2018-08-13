@@ -21,6 +21,6 @@ I'm lonely
 ## Developers
 |Avatar|Name|Role|
 |------|----|----|
-|![](https://cdn.discordapp.com/avatars/107130754189766656/5da53829d5042e62147077fa6c85ff15.jpg?size=128)|[**`Wesselgame#0498`**](https://github.com/PassTheWessel)|Lead Developer|
+|![](https://cdn.discordapp.com/avatars/107130754189766656/3f83cd16c80d321a34c747e6e804dc30.png?size=128)|[**`Wesselgame#0498`**](https://github.com/PassTheWessel)|Lead Developer|
 
 > You can join https://discord.gg/SV7DAE9 if you need any help setting up this code.

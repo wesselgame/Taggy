@@ -39,6 +39,7 @@ Discord:
 
     tag: true
     tags: true
+    about: true
     tag-add: true
     tag-del: true
     tag-edit: true
