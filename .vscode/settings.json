@@ -1,0 +1,45 @@
+{
+  //Workbench settings.
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Material Theme Palenight", // Abyss
+  "window.zoomLevel": 1,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", // C:\\WINDOWS\\System32\\bash.exe
+  "editor.cursorStyle": "line",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "eslint.packageManager": "yarn",
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "off",
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Fira Code', consolas, 'Courier New', monospace",
+  "editor.tabCompletion": true,
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "none",
+  "files.autoSave": "off",
+  "files.associations": {},
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "editor.cursorWidth": 0,
+  "workbench.sideBar.location": "left",
+  "workbench.editor.tabSizing": 2,
+  "debug.toolBarLocation": "floating",
+  "git.enableSmartCommit": true,
+  "git.ignoreLimitWarning": true,
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": true,
+  "debug.allowBreakpointsEverywhere": true,
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": false
+  },
+}

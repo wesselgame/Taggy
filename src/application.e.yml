@@ -1,0 +1,46 @@
+#----------- [ Taggy config ] ------------#
+#  This is the configuration file of      #
+#  Taggy, here is all your information    #
+#  stored in, you shouldn't send this     #
+#  file/information to **nobody** because #
+#  they could destroy your discord server #
+#  with your token!                       #
+#-----------[ Changeable info ]-----------#
+#  You must change the following values   #
+#  To your own values:                    #
+#  "Discord.token" and "Discord.prefix"   #
+#  If you need any help, consider joining #
+# https://discord.gg/SV7DAE9 for support  #
+###########################################
+
+ua: Taggy/0.1.0/clone # User-Agent for requests
+dev: Wesselgame # Developer name
+debug: 2 # Debugging level
+version: 0.1.0 # Version of Taggy
+nighlty: false # To run in nightly mode or not
+
+db: mongodb://localhost:27017/Taggy # Link to DB (mongo)
+Discord:
+  token: DISCORD_TOKEN # Your discord bot's token
+  prefix: '!' # The prefix where commands start with
+  op:
+    - '107130754189766656'
+  playing:
+    url: null # URL of twitch stream (if type = 1)
+    name: '$(bot:prefix)help [Taggy]' # Name of playing game
+    type: 2 # 0 - playing | 1 - streaming | 2 - Listening | 3 - Watching
+    enabled: true # If status will be displayed
+  Commands: # Enabled commands
+    ping: true
+    eval: true
+    blacklist: true
+
+    commands: true
+
+    tag: true
+    tags: true
+    tag-add: true
+    tag-del: true
+    tag-edit: true
+    tag-info: true
+    tag-source: true

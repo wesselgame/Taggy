@@ -1,0 +1,50 @@
+{
+  "engines": {
+    "node": ">=8.0"
+  },
+  "scripts": {
+    "start": "cd src && node taggy.js"
+  },
+  "name": "taggy",
+  "version": "0.1.0",
+  "description": "Taggy is just another discord bot with tags, nothing more",
+  "main": "src/taggy.js",
+  "author": "Wessel Tip <discord@go2it.eu>",
+  "maintainers": [
+    "Wessel Tip <discord@go2it.eu>"
+  ],
+  "contributors": [
+    "Wessel Tip <discord@go2it.eu>"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "eris": "^0.9.0",
+    "moment": "^2.22.2",
+    "js-yaml": "^3.12.0",
+    "mongoose": "^5.2.7"
+  },
+  "optionalDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-copy": "^1.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-strip-comments": "^2.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0"
+  },
+  "homepage": "https://passthewessel.github.io",
+  "repository": {
+    "url": "https://www.github.com/PassTheWessel/Taggy.git",
+    "type": "git"
+  },
+  "keywords": [
+    "discord",
+    "tag",
+    "bot",
+    "discord-bot",
+    "nodejs",
+    "eris",
+    "js"
+  ],
+  "private": false
+}
