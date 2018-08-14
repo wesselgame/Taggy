@@ -42,7 +42,7 @@ class TagEdit extends BaseCommand {
         if (!descCollector) {
           return ctx.send(`${this.bot.emoji['TAG_EDIT']['3']} **>** ${ctx.author.mention}, This prompt has been cancelled`);
         }
-        description = descCollector.slice(0, 1950).content.trim();
+        description = descCollector.content.slice(0, 1950).trim();
       } else description = components.slice(1, 1950).join(' ').trim();
     } catch (err) {
       ctx.send({
