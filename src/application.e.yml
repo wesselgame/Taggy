@@ -33,6 +33,7 @@ Discord:
   Commands: # Enabled commands
     ping: true
     eval: true
+    about: true
     blacklist: true
 
     commands: true
